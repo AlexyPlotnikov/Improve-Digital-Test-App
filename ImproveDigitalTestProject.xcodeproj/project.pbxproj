@@ -13,8 +13,6 @@
 		362A2DDC20232565008A1EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362A2DDA20232565008A1EC1 /* Main.storyboard */; };
 		362A2DDE20232565008A1EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362A2DDD20232565008A1EC1 /* Assets.xcassets */; };
 		362A2DE120232565008A1EC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362A2DDF20232565008A1EC1 /* LaunchScreen.storyboard */; };
-		362A2DEC20232566008A1EC1 /* ImproveDigitalTestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 362A2DEB20232566008A1EC1 /* ImproveDigitalTestProjectTests.m */; };
-		362A2DF720232566008A1EC1 /* ImproveDigitalTestProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 362A2DF620232566008A1EC1 /* ImproveDigitalTestProjectUITests.m */; };
 		3671807F20296A7A00275F1D /* IDTPInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671807E20296A7A00275F1D /* IDTPInteractor.m */; };
 		3671808220296A9000275F1D /* IDTPPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3671808120296A9000275F1D /* IDTPPresenter.m */; };
 		367180892029904100275F1D /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 367180882029904100275F1D /* MainTableViewCell.m */; };
@@ -28,23 +26,6 @@
 		367180B0202C4BF300275F1D /* ActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 367180AF202C4BF300275F1D /* ActivityView.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		362A2DE820232565008A1EC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 362A2DC620232565008A1EC1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 362A2DCD20232565008A1EC1;
-			remoteInfo = ImproveDigitalTestProject;
-		};
-		362A2DF320232566008A1EC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 362A2DC620232565008A1EC1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 362A2DCD20232565008A1EC1;
-			remoteInfo = ImproveDigitalTestProject;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		362A2DCE20232565008A1EC1 /* ImproveDigitalTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImproveDigitalTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		362A2DD220232565008A1EC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,12 +37,6 @@
 		362A2DDD20232565008A1EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		362A2DE020232565008A1EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		362A2DE220232565008A1EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		362A2DE720232565008A1EC1 /* ImproveDigitalTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImproveDigitalTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		362A2DEB20232566008A1EC1 /* ImproveDigitalTestProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImproveDigitalTestProjectTests.m; sourceTree = "<group>"; };
-		362A2DED20232566008A1EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		362A2DF220232566008A1EC1 /* ImproveDigitalTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImproveDigitalTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		362A2DF620232566008A1EC1 /* ImproveDigitalTestProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImproveDigitalTestProjectUITests.m; sourceTree = "<group>"; };
-		362A2DF820232566008A1EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3671807C202969FF00275F1D /* IDTPInteractorIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTPInteractorIO.h; sourceTree = "<group>"; };
 		3671807D20296A7A00275F1D /* IDTPInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTPInteractor.h; sourceTree = "<group>"; };
 		3671807E20296A7A00275F1D /* IDTPInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTPInteractor.m; sourceTree = "<group>"; };
@@ -98,20 +73,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		362A2DE420232565008A1EC1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		362A2DEF20232566008A1EC1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -119,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				362A2DD020232565008A1EC1 /* ImproveDigitalTestProject */,
-				362A2DEA20232565008A1EC1 /* ImproveDigitalTestProjectTests */,
-				362A2DF520232566008A1EC1 /* ImproveDigitalTestProjectUITests */,
 				362A2DCF20232565008A1EC1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				362A2DCE20232565008A1EC1 /* ImproveDigitalTestProject.app */,
-				362A2DE720232565008A1EC1 /* ImproveDigitalTestProjectTests.xctest */,
-				362A2DF220232566008A1EC1 /* ImproveDigitalTestProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,24 +116,6 @@
 				362A2DD220232565008A1EC1 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		362A2DEA20232565008A1EC1 /* ImproveDigitalTestProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				362A2DEB20232566008A1EC1 /* ImproveDigitalTestProjectTests.m */,
-				362A2DED20232566008A1EC1 /* Info.plist */,
-			);
-			path = ImproveDigitalTestProjectTests;
-			sourceTree = "<group>";
-		};
-		362A2DF520232566008A1EC1 /* ImproveDigitalTestProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				362A2DF620232566008A1EC1 /* ImproveDigitalTestProjectUITests.m */,
-				362A2DF820232566008A1EC1 /* Info.plist */,
-			);
-			path = ImproveDigitalTestProjectUITests;
 			sourceTree = "<group>";
 		};
 		367180902029C9AF00275F1D /* View */ = {
@@ -319,42 +258,6 @@
 			productReference = 362A2DCE20232565008A1EC1 /* ImproveDigitalTestProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		362A2DE620232565008A1EC1 /* ImproveDigitalTestProjectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 362A2DFE20232566008A1EC1 /* Build configuration list for PBXNativeTarget "ImproveDigitalTestProjectTests" */;
-			buildPhases = (
-				362A2DE320232565008A1EC1 /* Sources */,
-				362A2DE420232565008A1EC1 /* Frameworks */,
-				362A2DE520232565008A1EC1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				362A2DE920232565008A1EC1 /* PBXTargetDependency */,
-			);
-			name = ImproveDigitalTestProjectTests;
-			productName = ImproveDigitalTestProjectTests;
-			productReference = 362A2DE720232565008A1EC1 /* ImproveDigitalTestProjectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		362A2DF120232566008A1EC1 /* ImproveDigitalTestProjectUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 362A2E0120232566008A1EC1 /* Build configuration list for PBXNativeTarget "ImproveDigitalTestProjectUITests" */;
-			buildPhases = (
-				362A2DEE20232566008A1EC1 /* Sources */,
-				362A2DEF20232566008A1EC1 /* Frameworks */,
-				362A2DF020232566008A1EC1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				362A2DF420232566008A1EC1 /* PBXTargetDependency */,
-			);
-			name = ImproveDigitalTestProjectUITests;
-			productName = ImproveDigitalTestProjectUITests;
-			productReference = 362A2DF220232566008A1EC1 /* ImproveDigitalTestProjectUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -367,16 +270,6 @@
 					362A2DCD20232565008A1EC1 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
-					};
-					362A2DE620232565008A1EC1 = {
-						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 362A2DCD20232565008A1EC1;
-					};
-					362A2DF120232566008A1EC1 = {
-						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 362A2DCD20232565008A1EC1;
 					};
 				};
 			};
@@ -394,8 +287,6 @@
 			projectRoot = "";
 			targets = (
 				362A2DCD20232565008A1EC1 /* ImproveDigitalTestProject */,
-				362A2DE620232565008A1EC1 /* ImproveDigitalTestProjectTests */,
-				362A2DF120232566008A1EC1 /* ImproveDigitalTestProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -408,20 +299,6 @@
 				362A2DE120232565008A1EC1 /* LaunchScreen.storyboard in Resources */,
 				362A2DDE20232565008A1EC1 /* Assets.xcassets in Resources */,
 				362A2DDC20232565008A1EC1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		362A2DE520232565008A1EC1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		362A2DF020232566008A1EC1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,36 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		362A2DE320232565008A1EC1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				362A2DEC20232566008A1EC1 /* ImproveDigitalTestProjectTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		362A2DEE20232566008A1EC1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				362A2DF720232566008A1EC1 /* ImproveDigitalTestProjectUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		362A2DE920232565008A1EC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 362A2DCD20232565008A1EC1 /* ImproveDigitalTestProject */;
-			targetProxy = 362A2DE820232565008A1EC1 /* PBXContainerItemProxy */;
-		};
-		362A2DF420232566008A1EC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 362A2DCD20232565008A1EC1 /* ImproveDigitalTestProject */;
-			targetProxy = 362A2DF320232566008A1EC1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		362A2DDA20232565008A1EC1 /* Main.storyboard */ = {
@@ -541,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -583,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -614,52 +462,6 @@
 			};
 			name = Release;
 		};
-		362A2DFF20232566008A1EC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ImproveDigitalTestProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AP.ImproveDigitalTestProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImproveDigitalTestProject.app/ImproveDigitalTestProject";
-			};
-			name = Debug;
-		};
-		362A2E0020232566008A1EC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ImproveDigitalTestProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AP.ImproveDigitalTestProjectTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImproveDigitalTestProject.app/ImproveDigitalTestProject";
-			};
-			name = Release;
-		};
-		362A2E0220232566008A1EC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ImproveDigitalTestProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AP.ImproveDigitalTestProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ImproveDigitalTestProject;
-			};
-			name = Debug;
-		};
-		362A2E0320232566008A1EC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ImproveDigitalTestProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AP.ImproveDigitalTestProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ImproveDigitalTestProject;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -677,24 +479,6 @@
 			buildConfigurations = (
 				362A2DFC20232566008A1EC1 /* Debug */,
 				362A2DFD20232566008A1EC1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		362A2DFE20232566008A1EC1 /* Build configuration list for PBXNativeTarget "ImproveDigitalTestProjectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				362A2DFF20232566008A1EC1 /* Debug */,
-				362A2E0020232566008A1EC1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		362A2E0120232566008A1EC1 /* Build configuration list for PBXNativeTarget "ImproveDigitalTestProjectUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				362A2E0220232566008A1EC1 /* Debug */,
-				362A2E0320232566008A1EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,10 +10,10 @@
 
 @interface RSSPost : NSObject
 
-@property (nonatomic, retain) NSString* title;
-@property (nonatomic, retain) NSURL* link;
-@property (nonatomic, retain) NSString* descriptionText;
-@property (nonatomic, retain) NSDate* pubDate;
+@property (nonatomic, strong) NSString* title;
+@property (nonatomic, strong) NSURL* link;
+@property (nonatomic, strong) NSString* descriptionText;
+@property (nonatomic, strong) NSDate* pubDate;
 
 
 -(void) setValue:(NSString*)value forProperty:(NSString*)property;
